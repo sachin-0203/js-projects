@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 300px;
+  width: 400px;
+  background-color: rgb(225, 231, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 90px auto;
+  font-size: 1.7rem;
+  border-radius: 12px;
+}
+
+.displayCount{
+  font-size: 4rem;
+}
+
+.btn{
+  font-family: monospace;
+  text-transform: uppercase;
+  margin: 15px 3px;
+  padding: 4px 6px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.btn:hover{
+  background-color: rgba(0, 0, 63, 0.751);
+  color: white;
+  cursor: pointer;
+}
